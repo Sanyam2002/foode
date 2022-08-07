@@ -1,0 +1,262 @@
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+
+.form-group {
+    margin-bottom: 1rem
+}
+.ftco-section {
+    padding: 4em 0
+}
+
+.wrap {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 34px -15px rgba(0, 0, 0, .24);
+    -moz-box-shadow: 0 10px 34px -15px rgba(0, 0, 0, .24);
+    box-shadow: 0 10px 34px -15px rgba(0, 0, 0, .24);
+}
+
+.text-wrap, .login-wrap {
+    width: 50%;
+}
+
+@media (max-width:991.98px) {
+    .text-wrap, .login-wrap {
+        width: 100%
+    }
+}
+
+.text-wrap {
+    background: #f75959;
+    background: -moz-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #f75959), color-stop(100%, #f35587));
+    background: -webkit-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -o-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -ms-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -webkit-linear-gradient(315deg, #f75959 0%, #f35587 100%);
+    background: -o-linear-gradient(315deg, #f75959 0%, #f35587 100%);
+    background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1);
+    color: #fff;
+}
+.login-wrap h3 {
+    font-weight: 300
+}
+
+.form-group {
+    position: relative
+}
+.form-group a {
+    color: gray
+}
+
+.form-control {
+    height: 48px;
+    background: rgba(0, 0, 0, .05);
+    color: #000;
+    font-size: 16px;
+    border-radius: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+.form-control::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, .2)!important
+}
+
+.social-media .social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, .05);
+    font-size: 16px;
+    margin-right: 5px;
+    border-radius: 50%
+}
+
+.social-media .social-icon span {
+    color: #999
+}
+
+.social-media .social-icon:hover, .social-media .social-icon:focus {
+    background: #f35588
+}
+
+.social-media .social-icon:hover span, .social-media .social-icon:focus span {
+    color: #fff
+}
+
+.checkbox-wrap {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.checkbox-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.checkmark:after {
+    content: "\f0c8";
+    font-family: "FontAwesome";
+    position: absolute;
+    color: rgba(0, 0, 0, .1);
+    font-size: 20px;
+    margin-top: -4px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+
+.checkbox-wrap input:checked~.checkmark:after {
+    display: block;
+    content: "\f14a";
+    font-family: "FontAwesome";
+    color: rgba(0, 0, 0, .2)
+}
+
+.checkbox-primary {
+    color: #f35588
+}
+
+.checkbox-primary input:checked~.checkmark:after {
+    color: #f35588
+}
+
+.btn {
+    cursor: pointer;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 50px
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    outline: none
+}
+
+.btn.btn-primary {
+    background: #f35588;
+    border: 1px solid #f35588;
+    color: #fff;
+    background: #f75959;
+    background: -moz-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #f75959), color-stop(100%, #f35587));
+    background: -webkit-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -o-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -ms-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
+    background: -webkit-linear-gradient(315deg, #f75959 0%, #f35587 100%);
+    background: -o-linear-gradient(315deg, #f75959 0%, #f35587 100%);
+    background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1)
+}
+
+.btn.btn-primary:hover {
+    border: 1px solid #f35588;
+    background: #f35588;
+    color: #fff
+}
+
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #f35588;
+    background: transparent;
+    color: #f35588
+}
+
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #f35588;
+    color: #fff
+}
+
+.btn.btn-white {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.btn.btn-white:hover {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff
+}
+
+.btn.btn-white.btn-outline-white {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff
+}
+
+.btn.btn-white.btn-outline-white:hover {
+    border: 1px solid transparent;
+    background: #fff;
+    color: #000
+}

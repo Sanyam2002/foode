@@ -1,0 +1,67 @@
+{
+  "name": "foode",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "admin-bro": "^4.0.1",
+    "admin-bro-expressjs": "^2.1.1",
+    "antd": "^4.16.13",
+    "aos": "^2.3.4",
+    "concurrently": "^6.2.1",
+    "context": "^1.1.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "http-proxy-middleware": "^2.0.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.5",
+    "multer": "^1.4.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.4.0",
+    "react-helmet": "^6.1.0",
+    "react-image-gallery": "^1.2.7",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-promise": "^0.6.0",
+    "sweetalert2": "^11.1.7",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "both": "concurrently \"npm run start\" \"nodemon backend/index.js\"",
+    "start-backend": "cd backend && env/bin/flask run --no-debugger"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
